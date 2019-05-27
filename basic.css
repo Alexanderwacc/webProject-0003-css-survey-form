@@ -1,0 +1,96 @@
+html {
+  text-align: center;
+  min-width: 320px;
+  background: #b2e6d4;
+}
+body {
+  display: block;
+  margin: 8px;
+  margin-bottom: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2em;
+  font-weight: bold;
+}
+.star {
+  font-size: 0.75em;
+  vertical-align: super;
+}
+
+div.enter-form {
+  margin: 0 auto;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  background-color: #fef6ef;
+}
+ul {
+  list-style: none;
+}
+div.left-tab {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+div.right-tab {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+}
+
+.input-field {
+  height: 20px;
+  width: 90%;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid;
+  border-color: #c0c0c0;
+}
+
+.dropdown {
+  height: 30px;
+  width: 90%;
+  width: 100px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 18px;
+}
+
+.radio,
+.checkbox {
+  position: relative;
+  left: -43px;
+  margin-left: 10px;
+  padding-bottom: 10px;
+}
+
+.recommend {
+  float: left;
+}
+
+textarea#comments {
+  height: 50px;
+}
+
+#submit {
+  background-color: #3f95ca;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  font-size: 1em;
+  height: 30px;
+  width: 80px;
+  margin: 10px;
+  border: 0px solid;
+}
